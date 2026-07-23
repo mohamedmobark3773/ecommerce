@@ -1,0 +1,70 @@
+﻿//src/constants/localization.constants.js
+
+export const LocalizationConstants = {
+    ENGLISH: "english",
+    ARABIC: "arabic",
+    FRENCH: "french",
+    GERMAN: "german",
+    SPANISH: "spanish",
+    CHINESE: "chinese",
+    JAPANESE: "japanese",
+    KOREAN: "korean",
+    RUSSIAN: "russian",
+    PORTUGUESE: "portuguese",
+    ITALIAN: "italian",
+    DUTCH: "dutch",
+    SWEDISH: "swedish",
+    NORWEGIAN: "norwegian",
+    FINNISH: "finnish",
+    DANISH: "danish",
+    POLISH: "polish",
+    CZECH: "czech",
+    HUNGARIAN: "hungarian",
+    ROMANIAN: "romanian",
+    GREEK: "greek",
+    TURKISH: "turkish",
+    HEBREW: "hebrew",
+    ARABIC: "arabic",
+    FRENCH: "french",
+    GERMAN: "german",
+    SPANISH: "spanish",
+    CHINESE: "chinese",
+    JAPANESE: "japanese",
+    KOREAN: "korean",
+    RUSSIAN: "russian",
+    PORTUGUESE: "portuguese",
+    ITALIAN: "italian",
+    DUTCH: "dutch",
+    SWEDISH: "swedish",
+    NORWEGIAN: "norwegian",
+    FINNISH: "finnish",
+    DANISH: "danish",
+    POLISH: "polish",
+    CZECH: "czech",
+    HUNGARIAN: "hungarian",
+    ROMANIAN: "romanian",
+    GREEK: "greek",
+    TURKISH: "turkish",
+    HEBREW: "hebrew",
+}   
+
+export const LocalizationEvents = {
+    LANGUAGE_CHANGED: "LANGUAGE_CHANGED",
+    LANGUAGE_CHANGE_SUCCESS: "LANGUAGE_CHANGE_SUCCESS",
+    LANGUAGE_CHANGE_ERROR: "LANGUAGE_CHANGE_ERROR",
+}   
+
+export const LocalizationErrors = {
+    LANGUAGE_NOT_FOUND: "Language not found.",
+    LANGUAGE_ALREADY_EXISTS: "Language already exists.",
+    LANGUAGE_DELETED: "Language deleted successfully.",
+    LANGUAGE_UPDATED: "Language updated successfully.",
+    LANGUAGE_CREATED: "Language created successfully.",
+    LANGUAGE_NOT_FOUND: "Language not found.",
+    LANGUAGE_NOT_FOUND: "Language not found.",
+}   
+    
+export const LocalizationHttpConstants = {
+    LANGUAGE_CHANGE_SUCCESS: "Language change successful.",
+    LANGUAGE_CHANGE_ERROR: "Language change error.",
+}   

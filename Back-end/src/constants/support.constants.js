@@ -1,0 +1,29 @@
+﻿//src/constants/support.constants.js
+
+export const SUPPORT_TICKET_STATUSES = {
+    OPEN: "OPEN",
+    CLOSED: "CLOSED",
+    PENDING: "PENDING",
+    IN_PROGRESS: "IN_PROGRESS",
+    ON_HOLD: "ON_HOLD",
+    RESOLVED: "RESOLVED",
+    REOPENED: "REOPENED",
+}
+
+export const SUPPORT_TICKET_PRIORITIES = {
+    LOW: "LOW",
+    MEDIUM: "MEDIUM",
+    HIGH: "HIGH",
+    URGENT: "URGENT",
+}
+
+export const SUPPORT_TICKET_TYPES = {
+    GENERAL: "GENERAL",
+    TECHNICAL: "TECHNICAL",
+    BILLING: "BILLING",
+    SALES: "SALES",
+    OTHER: "OTHER",
+}
+
+export const SUPPORT_TICKET_STATUSES_CODES = Object.keys(SUPPORT_TICKET_STATUSES);
+

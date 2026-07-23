@@ -1,0 +1,78 @@
+﻿//src/constants/queue.constants.js
+
+export const QUEUE_NAMES = {
+    EMAIL: "email",
+     SMS: "sms",
+    NOTIFICATION: "notification",
+    ORDER: "order",
+    PAYMENT: "payment",
+    PRODUCT: "product",
+    USER: "user",
+    CATEGORY: "category",
+    COUPON: "coupon",
+    REVIEW: "review",
+    PERMISSION: "permission",
+    ROLE: "role",
+}
+
+export const QUEUE_EVENTS = {
+    EMAIL_SENT: "EMAIL_SENT",
+    EMAIL_FAILED: "EMAIL_FAILED",
+    SMS_SENT: "SMS_SENT",
+    SMS_FAILED: "SMS_FAILED",
+    NOTIFICATION_SENT: "NOTIFICATION_SENT",
+    NOTIFICATION_FAILED: "NOTIFICATION_FAILED",
+    ORDER_CREATED: "ORDER_CREATED",
+    ORDER_FAILED: "ORDER_FAILED",
+    PAYMENT_CREATED: "PAYMENT_CREATED",
+    PAYMENT_FAILED: "PAYMENT_FAILED",
+    PRODUCT_CREATED: "PRODUCT_CREATED",
+    PRODUCT_FAILED: "PRODUCT_FAILED",
+    USER_CREATED: "USER_CREATED",
+    USER_FAILED: "USER_FAILED",
+    CATEGORY_CREATED: "CATEGORY_CREATED",
+    CATEGORY_FAILED: "CATEGORY_FAILED",
+    COUPON_CREATED: "COUPON_CREATED",
+    COUPON_FAILED: "COUPON_FAILED",
+    REVIEW_CREATED: "REVIEW_CREATED",
+    REVIEW_FAILED: "REVIEW_FAILED",
+    PERMISSION_CREATED: "PERMISSION_CREATED",
+    PERMISSION_FAILED: "PERMISSION_FAILED",
+    ROLE_CREATED: "ROLE_CREATED",
+    ROLE_FAILED: "ROLE_FAILED",
+}
+
+export const QUEUE_MESSAGES = {
+    EMAIL_SENT: "Email sent successfully.",
+    EMAIL_FAILED: "Email failed.",
+    SMS_SENT: "SMS sent successfully.",
+    SMS_FAILED: "SMS failed.",
+    NOTIFICATION_SENT: "Notification sent successfully.",
+    NOTIFICATION_FAILED: "Notification failed.",
+    ORDER_CREATED: "Order created successfully.",
+    ORDER_FAILED: "Order failed.",
+    PAYMENT_CREATED: "Payment created successfully.",
+    PAYMENT_FAILED: "Payment failed.",
+    PRODUCT_CREATED: "Product created successfully.",
+    PRODUCT_FAILED: "Product failed.",
+    USER_CREATED: "User created successfully.",
+    USER_FAILED: "User failed.",
+    CATEGORY_CREATED: "Category created successfully.",
+    CATEGORY_FAILED: "Category failed.",
+    COUPON_CREATED: "Coupon created successfully.",
+    COUPON_FAILED: "Coupon failed.",
+    REVIEW_CREATED: "Review created successfully.",
+    REVIEW_FAILED: "Review failed.",
+    PERMISSION_CREATED: "Permission created successfully.",
+    PERMISSION_FAILED: "Permission failed.",
+    ROLE_CREATED: "Role created successfully.",
+    ROLE_FAILED: "Role failed.",
+}
+
+export const QUEUE_VALIDATION_CONSTANTS = {
+    EMAIL_INVALID: "Email is invalid.",
+    PASSWORD_INVALID: "Password is invalid.",
+    PHONE_INVALID: "Phone is invalid.",
+    ADDRESS_INVALID: "Address is invalid.",
+    
+}

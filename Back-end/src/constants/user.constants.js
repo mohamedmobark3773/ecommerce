@@ -1,0 +1,9 @@
+﻿export const USER_STATUSES = {
+    ACTIVE: "ACTIVE",
+    INACTIVE: "INACTIVE",
+    PENDING: "PENDING",
+    SUSPENDED: "SUSPENDED",
+    DELETED: "DELETED",
+}
+
+export const USER_STATUSES_CODES = Object.keys(USER_STATUSES);
